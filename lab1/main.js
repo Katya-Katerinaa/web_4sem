@@ -54,7 +54,7 @@ function solution(a, b, c) {
 solution(a, b ,c)
 
 
-// Задача №3 Fizz-Buzz
+Задача №3 Fizz-Buzz
 
 function suffix(a) {
     let ans = "buzz"
@@ -81,7 +81,7 @@ function solution_2() {
 }
 
 solution_2()
-//Задача №4 Елка к новому году
+Задача №4 Елка к новому году
 function buidTree(a) {
     let resString = "^\n"
     let c = "*"
@@ -97,7 +97,7 @@ function buidTree(a) {
 buidTree(12)
 
 
-//Задача №5 Угадай число
+Задача №5 Угадай число
 
 let key = 5
 let f = 0
@@ -112,7 +112,7 @@ let f = 0
     }
 } while ( f!= key)
 
-//Задача №6 Деление
+Задача №6 Деление
 let n = Number(prompt())
 let x = Number(prompt())
 let y = Number(prompt())
