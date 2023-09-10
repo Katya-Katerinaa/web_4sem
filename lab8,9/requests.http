@@ -1,0 +1,85 @@
+###
+GET /v3/models HTTP/1.1
+Host: 127.0.0.1:3006
+
+###
+GET /v3/models/6471c1135def4ba2b8564eaa HTTP/1.1
+Host: 127.0.0.1:3006
+
+###
+GET /v4/models/64648adaf5294c788ca2369f HTTP/1.1
+Host: 127.0.0.1:5005
+
+###
+POST /v3/models/ HTTP/1.1
+Host: 127.0.0.1:5005
+Content-Type: application/json
+
+{
+  "username": "Some9",
+  "name": "Square",
+  "modelType": "blend",
+  "modelObj": {},
+  "desc": "some model",
+  "comments": ["Nice model", "Awesome Polygones"]
+}
+###
+POST /v3/postModels?key=BIdAWH7i9n7YeC/kfM5MQ HTTP/1.1
+Host: 127.0.0.1:5005
+Content-Type: application/json
+
+{
+  "username": "Mustafa",
+  "name": "Cube",
+  "modelType": "blend",
+  "modelObj": {},
+  "desc": "some model",
+  "comments": ["Nice model", "Awesome Polygones"]
+}
+
+# Sphere
+# Cone
+# Pyramid
+# Cube
+
+###
+POST /v4/newUser HTTP/1.1
+Host: 127.0.0.1:5005
+Content-Type: application/json
+
+{
+  "username": "Jordan Carter"
+}
+
+###
+PUT /v3/models/6471c1195def4ba2b8564eab?login=Mustfa&password=1111 HTTP/1.1
+Host: 127.0.0.1:5005
+Content-Type: application/json
+
+{
+  "username": "Mustafa",
+  "name": "Cube",
+  "modelType": "m3d",
+  "modelObj": {},
+  "desc": "some model",
+  "comments": ["bad square", "Awesome Polygones"]
+}
+
+###
+PUT /v3/putModels/64995293c76a31c6598a95af?key=1111 HTTP/1.1
+Host: 127.0.0.1:5005
+Content-Type: application/json
+
+{
+  "username": "Mustafa",
+  "name": "TestModel",
+  "modelType": "m3d",
+  "modelObj": {},
+  "desc": "some model",
+  "comments": ["Nice model", "Awesome Polygones", "It's so big"]
+}
+
+
+###
+DELETE /v3/deleteModels/6471c5767e8b2f72e8b39e6a?key=083m.7h.X_QidLLnH~6~giz
+Host: 127.0.0.1:5005
