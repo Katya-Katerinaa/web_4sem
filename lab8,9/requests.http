@@ -29,7 +29,7 @@ Host: 127.0.0.1:5005
 Content-Type: application/json
 
 {
-  "username": "Mustafa",
+  "username": "Ekaterina",
   "name": "Cube",
   "modelType": "blend",
   "modelObj": {},
@@ -52,12 +52,12 @@ Content-Type: application/json
 }
 
 ###
-PUT /v3/models/6471c1195def4ba2b8564eab?login=Mustfa&password=1111 HTTP/1.1
+PUT /v3/models/6471c1195def4ba2b8564eab?login=Ekaterina&password=1111 HTTP/1.1
 Host: 127.0.0.1:5005
 Content-Type: application/json
 
 {
-  "username": "Mustafa",
+  "username": "Ekaterina",
   "name": "Cube",
   "modelType": "m3d",
   "modelObj": {},
@@ -71,7 +71,7 @@ Host: 127.0.0.1:5005
 Content-Type: application/json
 
 {
-  "username": "Mustafa",
+  "username": "Ekaterina",
   "name": "TestModel",
   "modelType": "m3d",
   "modelObj": {},
